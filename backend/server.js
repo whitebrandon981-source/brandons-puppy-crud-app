@@ -84,6 +84,7 @@ const Puppies = sequelize.define(
     age_months: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      defaultValue: 0,
     },
     user_id: {
       type: DataTypes.STRING,
